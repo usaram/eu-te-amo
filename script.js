@@ -1,7 +1,3 @@
-/* ===========================================
-                ENTRAR NO SITE
-=========================================== */
-
 const loader = document.getElementById("loader");
 const enterButton = document.getElementById("enterButton");
 
@@ -16,10 +12,6 @@ enterButton.addEventListener("click", () => {
     },600);
 
 });
-
-/* ===========================================
-                CONTADOR
-=========================================== */
 
 const startDate = new Date("2026-07-01T08:09:00");
 
@@ -52,10 +44,6 @@ updateCounter();
 
 setInterval(updateCounter,1000);
 
-/* ===========================================
-                PRESENTE
-=========================================== */
-
 const giftButton = document.getElementById("giftButton");
 
 const giftMessage = document.getElementById("giftMessage");
@@ -71,10 +59,6 @@ giftButton.innerHTML="❤️ Eu te amo ❤️";
 }
 
 }
-
-/* ===========================================
-            CHUVA DE CORAÇÕES
-=========================================== */
 
 let raining = false;
 
@@ -132,10 +116,6 @@ if(!raining){
 
 }
 
-/* ===========================================
-                REVELAR
-=========================================== */
-
 const observer = new IntersectionObserver((entries)=>{
 
 entries.forEach((entry)=>{
@@ -163,10 +143,6 @@ el.style.transition=".8s";
 observer.observe(el);
 
 });
-
-/* ===========================================
-                MENU
-=========================================== */
 
 document.querySelectorAll("nav a").forEach(link=>{
 
