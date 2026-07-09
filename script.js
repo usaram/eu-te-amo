@@ -21,7 +21,7 @@ enterButton.addEventListener("click", () => {
                 CONTADOR
 =========================================== */
 
-const startDate = new Date("2026-01-07T08:09:00");
+const startDate = new Date("2026-06-29T08:09:00");
 
 function updateCounter(){
 
